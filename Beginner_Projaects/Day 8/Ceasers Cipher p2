@@ -31,3 +31,4 @@ def decrypt(original_text, shift_amount):
                 deshift_by= j-shift_amount
                 decrypted_text+= alphabet[deshift_by]
     print(decrypted_text)
+ceaser()
