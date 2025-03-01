@@ -1,0 +1,12 @@
+letter= []
+def encrypt(original_text, shift_amount):
+    encrypted_word=''
+    for i in range(len(original_text)):
+        letter.append(original_text[i])
+        for j in range(len(alphabet)):
+            if letter[i]==alphabet[j]:
+                shifter= (j+shift_amount)%25
+                encrypted_word+= alphabet[shifter]
+    print(encrypted_word)
+
+encrypt(text,shift)
